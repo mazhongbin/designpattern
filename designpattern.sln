@@ -7,9 +7,14 @@ Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "src", "src", "{D57EFCCF-EB0
 EndProject
 Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "test", "test", "{F4143FA1-A205-4B17-BF83-92B87184D8DD}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "DP01Singleton", "DP01Singleton\DP01Singleton.csproj", "{7D9EA191-FE49-4D30-8F36-A92B612C53A7}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "DP01Singleton", "DP01Singleton\DP01Singleton.csproj", "{7D9EA191-FE49-4D30-8F36-A92B612C53A7}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "XUnitTestDP", "XUnitTestDP\XUnitTestDP.csproj", "{137E84CA-02A5-4AE8-84B2-C04236E61F38}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "XUnitTestDP", "XUnitTestDP\XUnitTestDP.csproj", "{137E84CA-02A5-4AE8-84B2-C04236E61F38}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "uml", "uml", "{958E4CA8-FC29-490F-AE2C-E02914D051EF}"
+	ProjectSection(SolutionItems) = preProject
+		UML\designpatternUML.drawio = UML\designpatternUML.drawio
+	EndProjectSection
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
