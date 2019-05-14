@@ -13,10 +13,11 @@ Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "XUnitTestDP", "XUnitTestDP\
 EndProject
 Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "uml", "uml", "{958E4CA8-FC29-490F-AE2C-E02914D051EF}"
 	ProjectSection(SolutionItems) = preProject
+		UML\DP02FactoryMethod.drawio = UML\DP02FactoryMethod.drawio
 		UML\DP03Builder.drawio = UML\DP03Builder.drawio
 	EndProjectSection
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "DP03Builder", "DP03Builder\DP03Builder.csproj", "{DBF60CAD-57DB-4045-A586-CC1182E652FB}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "DP03Builder", "DP03Builder\DP03Builder.csproj", "{DBF60CAD-57DB-4045-A586-CC1182E652FB}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
