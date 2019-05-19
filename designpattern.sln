@@ -18,6 +18,7 @@ Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "uml", "uml", "{958E4CA8-FC2
 		UML\DP03Builder.drawio = UML\DP03Builder.drawio
 		UML\DP04Prototype.drawio = UML\DP04Prototype.drawio
 		UML\DP05Adapter.drawio = UML\DP05Adapter.drawio
+		UML\DP06Bridge.drawio = UML\DP06Bridge.drawio
 	EndProjectSection
 EndProject
 Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "DP03Builder", "DP03Builder\DP03Builder.csproj", "{DBF60CAD-57DB-4045-A586-CC1182E652FB}"
@@ -27,6 +28,8 @@ EndProject
 Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "DP04Prototype", "DP04Prototype\DP04Prototype.csproj", "{F1571C6E-9D79-428D-97B6-5F096FFFD463}"
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "DP05Adapter", "DP05Adapter\DP05Adapter.csproj", "{CB966D5F-2EC0-4A34-A3CF-6B863F403592}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "DP06Bridge", "DP06Bridge\DP06Bridge.csproj", "{5F0F4E90-843E-4DB7-9C34-9CA58FCCE047}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -58,6 +61,10 @@ Global
 		{CB966D5F-2EC0-4A34-A3CF-6B863F403592}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{CB966D5F-2EC0-4A34-A3CF-6B863F403592}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{CB966D5F-2EC0-4A34-A3CF-6B863F403592}.Release|Any CPU.Build.0 = Release|Any CPU
+		{5F0F4E90-843E-4DB7-9C34-9CA58FCCE047}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{5F0F4E90-843E-4DB7-9C34-9CA58FCCE047}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{5F0F4E90-843E-4DB7-9C34-9CA58FCCE047}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{5F0F4E90-843E-4DB7-9C34-9CA58FCCE047}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
@@ -69,6 +76,7 @@ Global
 		{04D1DE75-4708-4004-A2FB-D4F3B7A40E4C} = {D57EFCCF-EB0B-4760-9C1A-B187D5452696}
 		{F1571C6E-9D79-428D-97B6-5F096FFFD463} = {D57EFCCF-EB0B-4760-9C1A-B187D5452696}
 		{CB966D5F-2EC0-4A34-A3CF-6B863F403592} = {D57EFCCF-EB0B-4760-9C1A-B187D5452696}
+		{5F0F4E90-843E-4DB7-9C34-9CA58FCCE047} = {D57EFCCF-EB0B-4760-9C1A-B187D5452696}
 	EndGlobalSection
 	GlobalSection(ExtensibilityGlobals) = postSolution
 		SolutionGuid = {E81CF9D5-7E25-4969-B971-4ABAC7E6E45E}
