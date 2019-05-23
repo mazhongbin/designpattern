@@ -21,6 +21,8 @@ Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "uml", "uml", "{958E4CA8-FC2
 		UML\DP06Bridge.drawio = UML\DP06Bridge.drawio
 		UML\DP07Component.drawio = UML\DP07Component.drawio
 		UML\DP08Decorator.drawio = UML\DP08Decorator.drawio
+		UML\DP10FlyWeight.drawio = UML\DP10FlyWeight.drawio
+		UML\DP11Proxy.drawio = UML\DP11Proxy.drawio
 	EndProjectSection
 EndProject
 Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "DP03Builder", "DP03Builder\DP03Builder.csproj", "{DBF60CAD-57DB-4045-A586-CC1182E652FB}"
@@ -33,9 +35,11 @@ Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "DP05Adapter", "DP05Adapter\
 EndProject
 Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "DP06Bridge", "DP06Bridge\DP06Bridge.csproj", "{5F0F4E90-843E-4DB7-9C34-9CA58FCCE047}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "DP07Component", "DP07Component\DP07Component.csproj", "{FA0C726E-B80A-46EF-89D7-53DF8EE579E4}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "DP07Component", "DP07Component\DP07Component.csproj", "{FA0C726E-B80A-46EF-89D7-53DF8EE579E4}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "DP08Decorator", "DP08Decorator\DP08Decorator.csproj", "{4A6DE2D9-2273-4919-AB57-7AD32DC58AEC}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "DP08Decorator", "DP08Decorator\DP08Decorator.csproj", "{4A6DE2D9-2273-4919-AB57-7AD32DC58AEC}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "DP11Proxy", "DP11Proxy\DP11Proxy.csproj", "{BADD9BAD-D88E-49AB-8CC5-634F8413F965}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -79,6 +83,10 @@ Global
 		{4A6DE2D9-2273-4919-AB57-7AD32DC58AEC}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{4A6DE2D9-2273-4919-AB57-7AD32DC58AEC}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{4A6DE2D9-2273-4919-AB57-7AD32DC58AEC}.Release|Any CPU.Build.0 = Release|Any CPU
+		{BADD9BAD-D88E-49AB-8CC5-634F8413F965}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{BADD9BAD-D88E-49AB-8CC5-634F8413F965}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{BADD9BAD-D88E-49AB-8CC5-634F8413F965}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{BADD9BAD-D88E-49AB-8CC5-634F8413F965}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
@@ -93,6 +101,7 @@ Global
 		{5F0F4E90-843E-4DB7-9C34-9CA58FCCE047} = {D57EFCCF-EB0B-4760-9C1A-B187D5452696}
 		{FA0C726E-B80A-46EF-89D7-53DF8EE579E4} = {D57EFCCF-EB0B-4760-9C1A-B187D5452696}
 		{4A6DE2D9-2273-4919-AB57-7AD32DC58AEC} = {D57EFCCF-EB0B-4760-9C1A-B187D5452696}
+		{BADD9BAD-D88E-49AB-8CC5-634F8413F965} = {D57EFCCF-EB0B-4760-9C1A-B187D5452696}
 	EndGlobalSection
 	GlobalSection(ExtensibilityGlobals) = postSolution
 		SolutionGuid = {E81CF9D5-7E25-4969-B971-4ABAC7E6E45E}
