@@ -25,6 +25,7 @@ Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "uml", "uml", "{958E4CA8-FC2
 		UML\DP11Proxy.drawio = UML\DP11Proxy.drawio
 		UML\DP12TemplateMethod.drawio = UML\DP12TemplateMethod.drawio
 		UML\DP13Command.drawio = UML\DP13Command.drawio
+		UML\DP15Interpreter.drawio = UML\DP15Interpreter.drawio
 	EndProjectSection
 EndProject
 Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "DP03Builder", "DP03Builder\DP03Builder.csproj", "{DBF60CAD-57DB-4045-A586-CC1182E652FB}"
