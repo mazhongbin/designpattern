@@ -23,6 +23,8 @@ Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "uml", "uml", "{958E4CA8-FC2
 		UML\DP08Decorator.drawio = UML\DP08Decorator.drawio
 		UML\DP10FlyWeight.drawio = UML\DP10FlyWeight.drawio
 		UML\DP11Proxy.drawio = UML\DP11Proxy.drawio
+		UML\DP12TemplateMethod.drawio = UML\DP12TemplateMethod.drawio
+		UML\DP13Command.drawio = UML\DP13Command.drawio
 	EndProjectSection
 EndProject
 Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "DP03Builder", "DP03Builder\DP03Builder.csproj", "{DBF60CAD-57DB-4045-A586-CC1182E652FB}"
@@ -39,7 +41,9 @@ Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "DP07Component", "DP07Compon
 EndProject
 Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "DP08Decorator", "DP08Decorator\DP08Decorator.csproj", "{4A6DE2D9-2273-4919-AB57-7AD32DC58AEC}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "DP11Proxy", "DP11Proxy\DP11Proxy.csproj", "{BADD9BAD-D88E-49AB-8CC5-634F8413F965}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "DP11Proxy", "DP11Proxy\DP11Proxy.csproj", "{BADD9BAD-D88E-49AB-8CC5-634F8413F965}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "DP14Command", "DP14Command\DP14Command.csproj", "{6B01548B-F161-494D-B599-8BDE05F15C7B}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -87,6 +91,10 @@ Global
 		{BADD9BAD-D88E-49AB-8CC5-634F8413F965}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{BADD9BAD-D88E-49AB-8CC5-634F8413F965}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{BADD9BAD-D88E-49AB-8CC5-634F8413F965}.Release|Any CPU.Build.0 = Release|Any CPU
+		{6B01548B-F161-494D-B599-8BDE05F15C7B}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{6B01548B-F161-494D-B599-8BDE05F15C7B}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{6B01548B-F161-494D-B599-8BDE05F15C7B}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{6B01548B-F161-494D-B599-8BDE05F15C7B}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
@@ -102,6 +110,7 @@ Global
 		{FA0C726E-B80A-46EF-89D7-53DF8EE579E4} = {D57EFCCF-EB0B-4760-9C1A-B187D5452696}
 		{4A6DE2D9-2273-4919-AB57-7AD32DC58AEC} = {D57EFCCF-EB0B-4760-9C1A-B187D5452696}
 		{BADD9BAD-D88E-49AB-8CC5-634F8413F965} = {D57EFCCF-EB0B-4760-9C1A-B187D5452696}
+		{6B01548B-F161-494D-B599-8BDE05F15C7B} = {D57EFCCF-EB0B-4760-9C1A-B187D5452696}
 	EndGlobalSection
 	GlobalSection(ExtensibilityGlobals) = postSolution
 		SolutionGuid = {E81CF9D5-7E25-4969-B971-4ABAC7E6E45E}
