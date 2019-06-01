@@ -30,6 +30,7 @@ Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "uml", "uml", "{958E4CA8-FC2
 		UML\DP17Iterator.drawio = UML\DP17Iterator.drawio
 		UML\DP18ChainofResponsibility.drawio = UML\DP18ChainofResponsibility.drawio
 		UML\DP19Observer.drawio = UML\DP19Observer.drawio
+		UML\DP20Memento.drawio = UML\DP20Memento.drawio
 	EndProjectSection
 EndProject
 Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "DP03Builder", "DP03Builder\DP03Builder.csproj", "{DBF60CAD-57DB-4045-A586-CC1182E652FB}"
@@ -55,6 +56,8 @@ EndProject
 Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "DP17Iterator", "DP17Iterator\DP17Iterator.csproj", "{BA41014E-64BC-403A-81B8-6E878009B8DD}"
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "DP19Observer", "DP19Observer\DP19Observer.csproj", "{94EF3512-F8D1-4F53-9514-6FE6D0181E8C}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "DP20Memento", "DP20Memento\DP20Memento.csproj", "{4B139468-316F-4B1A-A6C8-4E9C95383717}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -118,6 +121,10 @@ Global
 		{94EF3512-F8D1-4F53-9514-6FE6D0181E8C}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{94EF3512-F8D1-4F53-9514-6FE6D0181E8C}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{94EF3512-F8D1-4F53-9514-6FE6D0181E8C}.Release|Any CPU.Build.0 = Release|Any CPU
+		{4B139468-316F-4B1A-A6C8-4E9C95383717}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{4B139468-316F-4B1A-A6C8-4E9C95383717}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{4B139468-316F-4B1A-A6C8-4E9C95383717}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{4B139468-316F-4B1A-A6C8-4E9C95383717}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
@@ -137,6 +144,7 @@ Global
 		{43EC52ED-0C03-4C29-878D-A17E0A028251} = {D57EFCCF-EB0B-4760-9C1A-B187D5452696}
 		{BA41014E-64BC-403A-81B8-6E878009B8DD} = {D57EFCCF-EB0B-4760-9C1A-B187D5452696}
 		{94EF3512-F8D1-4F53-9514-6FE6D0181E8C} = {D57EFCCF-EB0B-4760-9C1A-B187D5452696}
+		{4B139468-316F-4B1A-A6C8-4E9C95383717} = {D57EFCCF-EB0B-4760-9C1A-B187D5452696}
 	EndGlobalSection
 	GlobalSection(ExtensibilityGlobals) = postSolution
 		SolutionGuid = {E81CF9D5-7E25-4969-B971-4ABAC7E6E45E}
