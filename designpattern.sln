@@ -33,6 +33,7 @@ Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "uml", "uml", "{958E4CA8-FC2
 		UML\DP20Memento.drawio = UML\DP20Memento.drawio
 		UML\DP21State.drawio = UML\DP21State.drawio
 		UML\DP22Strategy.drawio = UML\DP22Strategy.drawio
+		UML\DP23Visitor.drawio = UML\DP23Visitor.drawio
 	EndProjectSection
 EndProject
 Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "DP03Builder", "DP03Builder\DP03Builder.csproj", "{DBF60CAD-57DB-4045-A586-CC1182E652FB}"
@@ -64,6 +65,8 @@ EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "DP21State", "DP21State\DP21State.csproj", "{2C128E32-AD20-44E9-9B15-8F332B2EE273}"
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "DP22Strategy", "DP22Strategy\DP22Strategy.csproj", "{7EB18C5C-756D-4613-8E23-677BA66AA462}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "DP23Visitor", "DP23Visitor\DP23Visitor.csproj", "{711C3DD6-97FA-4B57-B3DB-956227DCC3CE}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -139,6 +142,10 @@ Global
 		{7EB18C5C-756D-4613-8E23-677BA66AA462}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{7EB18C5C-756D-4613-8E23-677BA66AA462}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{7EB18C5C-756D-4613-8E23-677BA66AA462}.Release|Any CPU.Build.0 = Release|Any CPU
+		{711C3DD6-97FA-4B57-B3DB-956227DCC3CE}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{711C3DD6-97FA-4B57-B3DB-956227DCC3CE}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{711C3DD6-97FA-4B57-B3DB-956227DCC3CE}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{711C3DD6-97FA-4B57-B3DB-956227DCC3CE}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
@@ -161,6 +168,7 @@ Global
 		{4B139468-316F-4B1A-A6C8-4E9C95383717} = {D57EFCCF-EB0B-4760-9C1A-B187D5452696}
 		{2C128E32-AD20-44E9-9B15-8F332B2EE273} = {D57EFCCF-EB0B-4760-9C1A-B187D5452696}
 		{7EB18C5C-756D-4613-8E23-677BA66AA462} = {D57EFCCF-EB0B-4760-9C1A-B187D5452696}
+		{711C3DD6-97FA-4B57-B3DB-956227DCC3CE} = {D57EFCCF-EB0B-4760-9C1A-B187D5452696}
 	EndGlobalSection
 	GlobalSection(ExtensibilityGlobals) = postSolution
 		SolutionGuid = {E81CF9D5-7E25-4969-B971-4ABAC7E6E45E}
